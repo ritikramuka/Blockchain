@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+
+    <title>StarNotary DApp</title>
+
+  </head>
+  <style>
+    input {
+      display: block;
+      margin-bottom: 12px;
+    }
+  </style>
+  <body>
+    <h1>StarNotary Token DAPP</h1>
+<div>
+    <h2>Create a Star</h2>
+    <br><label for="starName">Star Name:</label><input type="text" id="starName"></input>
+    <br><label for="starId">Star ID:</label><input type="text" id="starId"></input>
+    <br><button id="createStar" onclick="App.createStar()" class="btn">Create Star</button>
+    <br><br>
+    <br>
+    <span id="status"></span>
+    <hr>
+    <h2>Lookup a Star</h2>
+    <br><label id="lookup-starId">Star ID:</label><input type="text" id="lookup-starid-textbox"></input>
+    <br><button id="lookup-starId" onclick="App.lookUptokenIdToStarInfo()" class="btn"> Lookup Star by Id</button>
+    <br>
+    <br>
+    <span id="lookup-star"></span>
+</div>
+    <script src="index.js"></script>
+  </body>
+</html>

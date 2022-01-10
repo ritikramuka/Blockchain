@@ -1,0 +1,23 @@
+{
+  "name": "project_5_starter_code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "openzeppelin-solidity": "^2.1.2",
+    "truffle-hdwallet-provider": "^1.0.4"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

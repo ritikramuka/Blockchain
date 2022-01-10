@@ -1,0 +1,39 @@
+{
+  "name": "flight-delay-insurance",
+  "version": "1.0.0",
+  "description": "A Sample DApp for Flight Insurance MarketPlace for Airlines",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test ",
+    "dapp": "cd ./dapp && npm run migrate && npm run start",
+    "dapp:prod": "cd ./dapp && npm run migrate && npm run build",
+    "server": "NODE_ENV=production node ./server/index.js",
+    "watch": "nodemon ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkhroad-blockchain/flight-delay-insurance.git"
+  },
+  "author": "Devinder Khroad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dkhroad-blockchain/flight-delay-insurance/issues"
+  },
+  "homepage": "https://github.com/dkhroad-blockchain/flight-delay-insurance#readme",
+  "dependencies": {
+    "dotenv": "^8.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.3.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.2",
+    "openzeppelin-solidity": "^2.3.0",
+    "openzeppelin-test-helpers": "^0.4.3",
+    "truffle": "^5.0.32",
+    "truffle-hdwallet-provider": "^1.0.15",
+    "web3": "^1.2.0"
+  }
+}
